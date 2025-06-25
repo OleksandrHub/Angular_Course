@@ -1,0 +1,50 @@
+// Змінні 
+$primary-color: #3498db;
+
+
+h1, a {
+    color: $primary-color;
+    font-size: 2em;
+    text-align: center;
+
+    &:hover{
+        color: darken($primary-color, 10%);
+    }
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lighten($primary-color, 40%);
+    border-radius: 10px;
+
+    & > p {
+        font-size: 1.2em;
+        line-height: 1.5;
+        color: darken($primary-color, 20%);
+
+        &:first-child {
+            font-weight: bold;
+        }
+    }
+}
+
+@mixin btn($border-width: 2px, $font-size: 16px, $color: $primary-color) {
+    border: $border-width solid darken($color, 20%);
+    font-size: $font-size;
+    color: $color;
+}
+
+.btn1 {
+    @include btn();
+}
+.btn2 {
+    @include btn(3px, 18px, #e74c3c);
+}
+.btn3 {
+    @include btn(1px, 14px, #2ecc71);
+}
+.btn4 {
+    @include btn(4px, 20px, #f1c40f);
+}

@@ -1,0 +1,55 @@
+.container {
+    /* display: flex;
+    justify-content: center; */
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr); */
+    /* display: inline-block; */
+    /* position: relative; */
+    width: 100%;
+}
+
+/* .container::after {
+    content: "";
+    display: block;
+    clear: both;
+} 
+*/
+
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    /* float: left; */
+    /* position: absolute; */
+}
+
+.box1{
+    background-color: red;
+}
+
+.box2{
+    background-color: green;
+}
+
+.box3{
+    background-color: blue;
+}
+
+.box4{
+    background-color: yellow;
+}
+
+.box5{
+    background-color: orange;
+}
+
+/* 
+1. flex-box
+2. grid
+3. inline-block
+4. float
+5. position:absolute
+6. transform
+
+*/

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- центрування по горизонталі елементів -->
+    <div class="container">
+        <p>Перший параграф</p>
+        <p>Другий параграф</p>
+        <img src="https://picsum.photos/200/300" alt="Random Image">
+        <br>
+        <span>Третій параграф</span>
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+    </div>
+    <style>
+        .container {
+            /* text-align: center; */
+            /* display: flex;
+            justify-content: center; */
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            grid-gap: 10px;
+            justify-content: center;
+        }
+        .container .box{
+            /* margin: 0 auto; */
+            /* position: absolute;
+            left: 50%;
+            transform: translateX(-50%); */
+            /* display: inline-block; */
+            list-style: none;
+        }
+    </style>
+</body>
+</html>

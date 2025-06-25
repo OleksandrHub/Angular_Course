@@ -1,0 +1,14 @@
+.parent-1 > p { /* direct child selector */
+    color: skyblue;
+}
+.parent-1 + p { /* adjacent sibling selector */
+    color: blue;
+}
+.parent-1 ~ p { /* general sibling selector */
+    color: green;
+}
+input[type="text"] { /* attribute selector */
+    border: 2px solid orange;
+    padding: 5px;
+}
+/* 30 css selectors */

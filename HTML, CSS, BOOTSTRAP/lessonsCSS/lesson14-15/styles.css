@@ -1,0 +1,12 @@
+a {
+    background-color: aqua;
+}
+.parent-2 > p {
+    display: inline-block;
+}
+.parent-2 + p {
+    color: blue;
+}
+.parent-3 > p {
+    display: none;
+}

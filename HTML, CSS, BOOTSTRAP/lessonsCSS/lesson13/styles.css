@@ -1,0 +1,24 @@
+.box{
+    background-color: brown;
+}
+/* group selector */
+.box p {
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+}
+/* class-class selector */
+.box.list {
+    color: yellow;
+    font-size: 20px;
+}
+
+.box .list-item {
+    color: green;
+    font-size: 18px;
+}
+/* селектор через кому */
+.text-1, .text-2, .text-3 {
+    color: red;
+    font-size: 16px;
+}

@@ -1,0 +1,48 @@
+h1, a {
+  color: #3498db;
+  font-size: 2em;
+  text-align: center;
+}
+h1:hover, a:hover {
+  color: #217dbb;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e1f0fa;
+  border-radius: 10px;
+}
+.container > p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  color: #196090;
+}
+.container > p:first-child {
+  font-weight: bold;
+}
+
+.btn1 {
+  border: 2px solid #196090;
+  font-size: 16px;
+  color: #3498db;
+}
+
+.btn2 {
+  border: 3px solid #a82315;
+  font-size: 18px;
+  color: #e74c3c;
+}
+
+.btn3 {
+  border: 1px solid #1b7943;
+  font-size: 14px;
+  color: #2ecc71;
+}
+
+.btn4 {
+  border: 4px solid #927608;
+  font-size: 20px;
+  color: #f1c40f;
+}/*# sourceMappingURL=style.css.map */

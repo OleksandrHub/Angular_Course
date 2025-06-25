@@ -1,0 +1,64 @@
+/* px - це абослютні одиниці вимірювання, % - це відносні одиниці вимірювання */
+
+.container {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.container2 {
+    width: 100%;
+    height: 100px;
+    background-color: green;
+}
+
+/* vw - це відсоток від ширини вікна браузера (viewport width)
+   vh - це відсоток від висоти вікна браузера (viewport height) */
+.container3 {
+    width: 20vw;
+    height: 20vh;
+    background-color: blue;
+}
+
+/* em - це відносна одиниця вимірювання, яка базується на розмірі шрифту батьківського елемента */
+.container4 {
+    width: 10em;
+    height: 10em;
+    background-color: yellow;
+}
+
+/* rem - це відносна одиниця вимірювання, яка базується на розмірі шрифту кореневого елемента (html) */
+.container5 {
+    width: 10rem;
+    height: 10rem;
+    background-color: purple;
+}
+
+/* пріорітетність селекторів */
+#header {
+    color: pink;
+}
+/* Селектор класу */
+.header {
+    color: orange;
+}
+
+div h1 {
+    color: red;
+}
+/* чим більш конкретніше зазначаєш селектор тим більший пріорітет */
+
+h1 {
+    color: green;
+} 
+/* Чим нижче правило тим вищий пріорітет */
+
+body div h1 {
+    color: blue;
+}
+
+h1 {
+    color: black!important;
+}
+/* !important - це правило, яке надає стилю найвищий пріоритет, перебиваючи будь-які інші правила. */
+/* пріоритетність (від найнижчого до найвищого): селектор тегу -> класу -> ID -> inline-стиль -> !important */

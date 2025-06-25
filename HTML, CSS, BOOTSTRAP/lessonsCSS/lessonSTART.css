@@ -1,0 +1,22 @@
+/* CSS selector */
+* { /* Universal selector */
+    /* color: red; */
+    font-family: Arial, sans-serif;
+}
+/* tag selector */
+p {
+    color: blue;
+}
+/* class selector */
+.red-text {
+    color: red;
+}
+/* id selector */
+#green-text {
+    color: green;
+}
+/* attribute selector */
+a[target="_blank"] {
+    color: orange;
+}
+/* groups selector */
