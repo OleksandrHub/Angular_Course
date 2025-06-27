@@ -1,0 +1,40 @@
+@import "components";
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@function get-padding($size) {
+    @return $size * 8px;
+}
+
+@for $i from 1 through 3 {
+    .box-#{$i} {
+        width: $i * 100px;
+        height: $i * 100px;
+        background-color: rgba(0, 0, 255, 0.2 * $i);
+        margin: get-padding(1);
+    }
+}
+
+header {
+    @include flex-center;
+    padding: get-padding(2);
+
+    .title{
+        color: royalblue;
+        padding: get-padding(1);
+    }
+}
+
+section {
+    padding-block: 80px ;
+    background-color: coral;
+    padding: get-padding(1);
+
+    .title {
+        text-decoration: underline;
+    }
+}
