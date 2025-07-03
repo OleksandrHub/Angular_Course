@@ -35,7 +35,7 @@ type TSchoolUser = TUser & {
 // }
 
 
-// ENUM І ЙОГО ТИПИ
+// ENUM
 
 enum EnumRoles {
     ADMIN = "ADMIN",

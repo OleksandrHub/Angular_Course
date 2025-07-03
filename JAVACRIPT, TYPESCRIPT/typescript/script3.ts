@@ -24,6 +24,6 @@ type Type2 = isNumber<string>; // false
 type TypeBrand = "bwm" | "audi" | "mercedes";
 type TypePrice = "100000" | "200000" | "300000";
 
-type Car = `${TypeBrand} ${TypePrice}`;
+type CarType = `${TypeBrand} ${TypePrice}`;
 
-const car: Car = "mercedes 200000";
+const myCar: CarType = "mercedes 200000";
