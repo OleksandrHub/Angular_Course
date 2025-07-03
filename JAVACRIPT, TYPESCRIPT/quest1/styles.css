@@ -1,0 +1,58 @@
+body, html{
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.main-title{
+    text-align: center;
+}
+
+.posts-list{
+    list-style: none;
+}
+
+.posts-list li{
+    position: relative;
+    width: 80%;
+    margin: 10px auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.post-index{
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: greenyellow;
+    padding: 10px 15px;
+    transform: translate(-50%, -50%);
+}
+
+.post-link{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: slateblue ;
+    transition: all 0.25s ease;
+}
+
+.post-link:hover{
+    text-decoration: underline;
+    filter: brightness(0.9);
+}
+
+.post-title{
+    font-size: 20px;
+}
+
+.post-text{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}

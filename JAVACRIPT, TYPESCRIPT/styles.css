@@ -1,0 +1,16 @@
+.container{
+    width: 400px;
+    margin:0 auto;
+}
+
+.image-container{
+    text-align: center;
+}
+
+.image{
+    display: none;
+    width: 70%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
